@@ -236,6 +236,16 @@ let weekendspl = weekmenu.slice(3,5); // slice valla just manaki am kavalo avi t
 // slice lo 3rd to 5th item madyalo 3rd and 4th varaki manam pick chesukovataniki slice vadatam
 console.log(weekmenu);
 console.log(weekendspl);
+// next topic includes()
+let passengers = ["Ramu", "Paparao", "Subba Rao", "Venkat Rao"];
+let check1 = passengers.includes("Paparao"); //out put just true ani vostadi
+console.log(check1);
+let check2 = passengers.includes("Apparao"); // out put just false ani vostadi
+console.log(check2);
+let penscompany = ["doms", "ox", "flair", "unomax"];
+console.log(penscompany.indexOf("flair"));// indulo ans vunte index no cheptadi
+console.log(penscompany.indexOf("Hauser"));// indulo and lekapothe -1 ani ans estadi
+
 
 
 
