@@ -207,7 +207,7 @@ console.log(fruits);
 let colours = ["Red", "Green", "Blue", "Yellow"];
 colours[1] = "Purple";
 console.log(colours.length);
-fruits.splice(1,1, "Kiwi"); // ekkada first ante start index, 2nd number delete index
+fruits.splice(1,1, "Kiwi"); // ekkada first ante start index, taravata 2 items  delete cheyatam
 console.log(fruits)
 let fooda = "chapathi"
 let foodb = "rice"
@@ -229,6 +229,14 @@ let score = [10,20,30];
 score.pop();
 score.unshift(30);
 console.log(score);
+score.splice(1,1,"80")
+console.log(score)
+let weekmenu = ["Rice", "Pappu", "Sambar", "Chicken Biryani", "Mutton Biryani"];
+let weekendspl = weekmenu.slice(3,5); // slice valla just manaki am kavalo avi teesukovatam
+// slice lo 3rd to 5th item madyalo 3rd and 4th varaki manam pick chesukovataniki slice vadatam
+console.log(weekmenu);
+console.log(weekendspl);
+
 
 
 
