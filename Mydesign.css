@@ -1,0 +1,104 @@
+body
+{
+background-color: #f4f6f9;
+}
+.bill-heading{
+    color: red;
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+.bill-quote{
+    color: blue;
+}
+.bill-quote th, .bill-quote td
+{
+    border: 1px solid black;
+    padding: 5px;
+}
+.India
+{
+    color: red;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+
+}
+.India-states
+{
+    color: blue;
+    font-style: italic;
+    text-align: center;
+}
+.About-India
+{
+font-size: large;
+text-align: justify;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(200, 50, 30);
+}
+.rates
+{
+    color: blueviolet; font-size: large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Equations
+{
+    color: darkgreen; font-style: normal;
+}
+.quotations
+{
+    color: red; font-style: italic;
+}
+.color-rgb
+{
+color: rgb(250, 75, 80);
+}
+.color-hex
+{
+    color: #4CAF50;
+}
+.color-hsl
+{
+    color: hsl(240, 90%, 10%);
+}
+.myphoto
+{
+    border-radius: 15px;
+}
+body
+{
+    background-image: url('images/bgimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Unorderlist
+{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.orderlist
+{
+    color: darkgoldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header
+{
+    color: crimson;
+    background-color:aqua;
+    padding: 5px;
+    width: 100%;
+    height: fit-content;
+    font-size:large;
+}
+.dosarecipe
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
