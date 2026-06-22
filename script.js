@@ -217,7 +217,18 @@ queue.push("Naresh")
 queue.shift();
 queue.unshift("Mahesh");
 console.log(queue);
-alert("Java script working");
+let onqueue = ["Nani", "Balu", "Chanti"];
+onqueue.push("Srinivas");
+onqueue.shift();
+console.log(onqueue);
+let lunch = ["Rice", "Dal", "Curd"];
+lunch.unshift("Chicken Biryani");
+lunch.pop();
+console.log(lunch);
+let score = [10,20,30];
+score.pop();
+score.unshift(30);
+console.log(score);
 
 
 

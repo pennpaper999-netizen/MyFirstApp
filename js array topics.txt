@@ -1,0 +1,12 @@
+Indexing
+length
+push()
+pop()
+shift()
+unshift()
+splice()
+slice()
+includes()
+indexOf()
+for loop + arrays
+Array exercises
