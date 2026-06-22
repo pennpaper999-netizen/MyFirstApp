@@ -207,7 +207,7 @@ console.log(fruits);
 let colours = ["Red", "Green", "Blue", "Yellow"];
 colours[1] = "Purple";
 console.log(colours.length);
-fruits.splice(1,1,"Kiwi");
+fruits.splice(1,1, "Kiwi"); // ekkada first ante start index, 2nd number delete index
 console.log(fruits)
 let fooda = "chapathi"
 let foodb = "rice"
@@ -217,7 +217,7 @@ queue.push("Naresh")
 queue.shift();
 queue.unshift("Mahesh");
 console.log(queue);
-
+alert("Java script working");
 
 
 
