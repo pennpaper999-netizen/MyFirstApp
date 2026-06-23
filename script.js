@@ -245,6 +245,12 @@ console.log(check2);
 let penscompany = ["doms", "ox", "flair", "unomax"];
 console.log(penscompany.indexOf("flair"));// indulo ans vunte index no cheptadi
 console.log(penscompany.indexOf("Hauser"));// indulo and lekapothe -1 ani ans estadi
+//js lo for of loop class ippudu type chesedi
+let stationeryitems = ["Book", "Sharper", "Clay"];
+for (let bookitems of stationeryitems ){
+console.log(bookitems);
+}
+
 
 
 
