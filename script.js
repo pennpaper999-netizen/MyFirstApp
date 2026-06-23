@@ -250,9 +250,17 @@ let stationeryitems = ["Book", "Sharper", "Clay"];
 for (let bookitems of stationeryitems ){
 console.log(bookitems);
 }
-
-
-
+// e roju topic objects
+let studentdetail = {
+    Name: "Bingi Sharanya",
+    Class: "3rd class",
+    School:" St Martin High School",
+    Isavailable: true
+}
+console.log(studentdetail.Name);// particular details findout cheyataniki
+studentdetail.location = "Hyderabad", // extra data ni add cheyataniki
+console.log(studentdetail);
+delete studentdetail.Isavailable // edi vochesi user data lo column delete cheyataniki
 
 
 
